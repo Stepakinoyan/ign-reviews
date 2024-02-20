@@ -1,0 +1,184 @@
+{
+    "feedItems": [
+        {
+            "content": {
+                "title": "Like a Dragon: Infinite Wealth Review",
+                "publishDate": "2024-01-23T15:00:00.000Z",
+                "feedImage": {
+                    "url": "https://assets-prd.ignimgs.com/2024/01/23/likeadragoninfinitewealth-review-blogroll-1705976427332.jpg"
+                },
+                "url": "/articles/like-a-dragon-infinite-wealth-review",
+                "contributors": [
+                    {
+                        "name": "Tristan Ogilvie"
+                    }
+                ]
+            },
+            "review": {
+                "score": 9
+            }
+        },
+        {
+            "content": {
+                "title": "Tekken 8 Review ",
+                "publishDate": "2024-01-23T14:00:00.000Z",
+                "feedImage": {
+                    "url": "https://assets-prd.ignimgs.com/2024/01/22/tekken8-review-blogroll-1705944513847.jpg"
+                },
+                "url": "/articles/tekken-8-review",
+                "contributors": [
+                    {
+                        "name": "Ronny Barrier"
+                    }
+                ]
+            },
+            "review": {
+                "score": 9
+            }
+        },
+        {
+            "content": {
+                "title": "Prince of Persia: The Lost Crown Review",
+                "publishDate": "2024-01-11T17:00:00.000Z",
+                "feedImage": {
+                    "url": "https://assets-prd.ignimgs.com/2024/01/10/prince-of-persia-the-lost-crown-blogroll-1704930255172.jpg"
+                },
+                "url": "/articles/prince-of-persia-the-lost-crown-review",
+                "contributors": [
+                    {
+                        "name": "Phil Hornshaw"
+                    }
+                ]
+            },
+            "review": {
+                "score": 8
+            }
+        },
+        {
+            "content": {
+                "title": "Fortnite Rocket Racing Review",
+                "publishDate": "2023-12-21T02:01:14.471Z",
+                "feedImage": {
+                    "url": "https://assets-prd.ignimgs.com/2023/12/20/fortnite-rocket-racing-blogroll-1703109895263.jpg"
+                },
+                "url": "/articles/fortnite-rocket-racing-review",
+                "contributors": [
+                    {
+                        "name": "Gabriel Moss"
+                    }
+                ]
+            },
+            "review": {
+                "score": 6
+            }
+        },
+        {
+            "content": {
+                "title": "The Finals Review",
+                "publishDate": "2023-12-16T00:09:56.000Z",
+                "feedImage": {
+                    "url": "https://assets-prd.ignimgs.com/2023/12/08/thefinalsreview-blogroll-1702062760789.jpg"
+                },
+                "url": "/articles/the-finals-review",
+                "contributors": [
+                    {
+                        "name": "Justin Koreis"
+                    }
+                ]
+            },
+            "review": {
+                "score": 8
+            }
+        },
+        {
+            "content": {
+                "title": "Warhammer 40,000: Rogue Trader Review",
+                "publishDate": "2023-12-15T23:53:00.000Z",
+                "feedImage": {
+                    "url": "https://assets-prd.ignimgs.com/2023/12/06/roguetrader-thumb-1701825988203.jpg"
+                },
+                "url": "/articles/warhammer-40000-rogue-trader-review",
+                "contributors": [
+                    {
+                        "name": "Leana Hafer"
+                    }
+                ]
+            },
+            "review": {
+                "score": 8
+            }
+        },
+        {
+            "content": {
+                "title": "Resident Evil 4 Remake VR Review",
+                "publishDate": "2023-12-15T23:43:41.387Z",
+                "feedImage": {
+                    "url": "https://assets-prd.ignimgs.com/2023/12/15/residentevil4remakevr-review-blogroll-1702678336041.jpg"
+                },
+                "url": "/articles/resident-evil-4-remake-vr-review",
+                "contributors": [
+                    {
+                        "name": "Travis Northup"
+                    }
+                ]
+            },
+            "review": {
+                "score": 8
+            }
+        },
+        {
+            "content": {
+                "title": "Granblue Fantasy Versus: Rising Review",
+                "publishDate": "2023-12-15T20:03:45.059Z",
+                "feedImage": {
+                    "url": "https://assets-prd.ignimgs.com/2023/12/15/granbluefantasy-blogroll-1702669430155.jpg"
+                },
+                "url": "/articles/granblue-fantasy-versus-rising-review",
+                "contributors": [
+                    {
+                        "name": "Mitchell Saltzman"
+                    }
+                ]
+            },
+            "review": {
+                "score": 9
+            }
+        },
+        {
+            "content": {
+                "title": "Cookie Cutter Review",
+                "publishDate": "2023-12-15T19:58:55.399Z",
+                "feedImage": {
+                    "url": "https://assets-prd.ignimgs.com/2023/12/15/cookiecutterreview-blogroll-1702668647085.jpg"
+                },
+                "url": "/articles/cookie-cutter-review",
+                "contributors": [
+                    {
+                        "name": "Vikki Blake"
+                    }
+                ]
+            },
+            "review": {
+                "score": 7
+            }
+        },
+        {
+            "content": {
+                "title": "House Flipper 2 Review",
+                "publishDate": "2023-12-15T18:53:35.978Z",
+                "feedImage": {
+                    "url": "https://assets-prd.ignimgs.com/2023/12/15/hf2review-blogroll-1702666209182.jpg"
+                },
+                "url": "/articles/house-flipper-2-review",
+                "contributors": [
+                    {
+                        "name": "Rachel Weber"
+                    }
+                ]
+            },
+            "review": {
+                "score": 7
+            }
+        }
+    ]
+}
