@@ -49,7 +49,6 @@ services:
       build:
         context: templates/
       container_name: frontend_app
-      command: "http-server dist"
       ports:
         - 5468:80
       depends_on:
