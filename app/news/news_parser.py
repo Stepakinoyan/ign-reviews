@@ -13,22 +13,25 @@ class ReviewsData:
         self.config.browser_user_agent = UserAgent().random
 
     def get_data_from_api(self):
-        response = requests.get('https://mollusk.apis.ign.com/graphql', params=params, cookies=cookies, headers=headers)
-        
+        response = requests.get(
+            "https://mollusk.apis.ign.com/graphql",
+            params=params,
+            cookies=cookies,
+            headers=headers,
+        )
+
         return response.text
-    
+
     def get_article(self, url: str):
         article = Article(url, config=self.config)
         article.download()
         article.parse()
 
-
         return article.text
 
 
-
 class ReviewsJSON:
-    def __init__(self, client = ReviewsData()) -> None:
+    def __init__(self, client=ReviewsData()) -> None:
         self.client = client
 
     def convert_str_data_to_json(self):
@@ -36,22 +39,30 @@ class ReviewsJSON:
         io = StringIO(api_data)
 
         return json.load(io)
-    
+
     def parse_content(self):
         converted_api_data = self.convert_str_data_to_json()
-        model = ReviewContentFeed(**converted_api_data.get('data').get("reviewContentFeed"))
+        model = ReviewContentFeed(
+            **converted_api_data.get("data").get("reviewContentFeed")
+        )
 
         return model.model_dump()
-    
+
     def return_all_reviews(self):
         reviews = []
         content = self.parse_content()
         for item in content["feedItems"]:
             feeditem = FeedItem(**item)
-            review = Reviews(**item, text=self.client.get_article(url=f"https://www.ign.com{feeditem.content.url}"))
+            review = Reviews(
+                **item,
+                text=self.client.get_article(
+                    url=f"https://www.ign.com{feeditem.content.url}"
+                ),
+            )
 
             reviews.append(review.model_dump(mode="json"))
-        
+
         return reviews
-    
+
+
 reviews = ReviewsJSON()
