@@ -8,7 +8,7 @@ from app.news.router import router as reviews_router
 app = FastAPI(**settings.get_config)
 
 origins = [
-    "http://78.24.216.129",
+    "http://localhost:5468",
 ]
 
 app.add_middleware(

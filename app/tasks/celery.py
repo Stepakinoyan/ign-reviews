@@ -15,7 +15,6 @@ celery = Celery(
 celery.conf.beat_schedule = {
     "prepare-db-every-day": {
         "task": "prepare_db_every_day",
-        "schedule": 60
+        "schedule": crontab(minute=0, hour=0)
     }
 }
-# crontab(minute=0, hour=0)
