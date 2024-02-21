@@ -24,9 +24,15 @@ class ReviewsData:
 
 
         return article.text
-    
+
+
+
+class ReviewsJSON:
+    def __init__(self, client = ReviewsData()) -> None:
+        self.client = client
+
     def convert_str_data_to_json(self):
-        api_data = self.get_data_from_api()
+        api_data = self.client.get_data_from_api()
         io = StringIO(api_data)
 
         return json.load(io)
@@ -42,14 +48,10 @@ class ReviewsData:
         content = self.parse_content()
         for item in content["feedItems"]:
             feeditem = FeedItem(**item)
-            review = Reviews(**item, text=self.get_article(url=f"https://www.ign.com{feeditem.content.url}"))
+            review = Reviews(**item, text=self.client.get_article(url=f"https://www.ign.com{feeditem.content.url}"))
 
             reviews.append(review.model_dump(mode="json"))
         
         return reviews
     
-reviews = ReviewsData()
-
-
-# with open("results.json", 'w') as file:
-#     json.dump(reviews.return_all_reviews(), file, indent=4)
+reviews = ReviewsJSON()

@@ -7,7 +7,7 @@ from app.database import async_session_maker
 
 async def drop_db():
         async with async_session_maker() as session:
-                drop = News.drop_all
+                drop = delete(News)
                 await session.execute(drop)
 
                 await session.commit()
